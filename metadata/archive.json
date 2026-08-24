@@ -1,0 +1,13 @@
+{
+    "files": [
+        "modules/parser/service/codeBlockParser.ts",
+        "modules/parser/tests/codeBlockParser.spec.ts",
+        "modules/organiser/service/autoGrouping.ts",
+        "modules/organiser/tests/autoGrouping.spec.ts",
+        "modules/diagrams/architecture.mmd",
+        "docs/parser.md",
+        "docs/organiser.md",
+        "runtime/emulationTrace.json",
+        "optimisation/precompiled/parser.bytecode.json"
+    ]
+}

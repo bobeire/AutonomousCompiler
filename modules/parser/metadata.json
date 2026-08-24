@@ -1,0 +1,17 @@
+{
+  "name": "parser",
+  "title": "Parser Module",
+  "description": "Parses AI-generated code blocks, extracts file definitions, and produces structured metadata for AutonomousCompiler.",
+  "version": "1.0.0",
+  "dependencies": [
+    "organiser"
+  ],
+  "provides": [
+    "codeBlockParser",
+    "metadataExtractor"
+  ],
+  "paths": {
+    "service": "modules/parser/service",
+    "tests": "modules/parser/tests"
+  }
+}

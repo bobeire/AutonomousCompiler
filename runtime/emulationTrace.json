@@ -1,0 +1,8 @@
+{
+    "events": [
+        "parse:start",
+        "parse:end",
+        "refactor:start",
+        "refactor:end"
+    ]
+}

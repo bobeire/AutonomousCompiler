@@ -1,0 +1,19 @@
+
+{
+  "name": "organiser",
+  "title": "Organiser Module",
+  "description": "Automatically groups files into modules, assigns purpose tags, and maintains structural consistency across the AutonomousCompiler project.",
+  "version": "1.0.0",
+  "dependencies": [
+    "parser"
+  ],
+  "provides": [
+    "autoGrouping",
+    "moduleInference",
+    "pathNormalisation"
+  ],
+  "paths": {
+    "service": "modules/organiser/service",
+    "tests": "modules/organiser/tests"
+  }
+}

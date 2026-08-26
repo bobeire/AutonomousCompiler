@@ -164,8 +164,8 @@ You should see the AutonomousCompiler CLI help.
 Pick a folder for your project, e.g.:
 
 bash
-mkdir C:\Users\Robert\dev\autonomous-compiler
-cd C:\Users\Robert\dev\autonomous-compiler
+mkdir autonomous-compiler
+cd autonomous-compiler
 Inside that folder, create a minimal structure:
 
 bash
@@ -205,7 +205,7 @@ AutonomousCompiler Bridge › Base Dir
 Set it to your project path, e.g.:
 
 text
-C:\Users\Robert\dev\autonomous-compiler
+(LOCATION OF) autonomous-compiler
 Method B — Settings JSON
 Press Ctrl+Shift+P.
 
@@ -216,7 +216,7 @@ Preferences: Open Settings (JSON)
 Add:
 
 json
-"acBridge.baseDir": "C:\\Users\\Robert\\dev\\autonomous-compiler"
+"acBridge.baseDir": "autonomous-compiler"
 Save the file.
 
 6. Using the extension: JSON → Filesystem
